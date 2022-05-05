@@ -1,0 +1,32 @@
+[
+    {
+        "question": "What is full form of WST?",
+        "choices": ["Web Storage Tool", "Web System Tools", "Web System and Technologies", "WWW system and Technology"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which is a valid MIS?",
+        "choices": ["111903129", "312911190", "11190509", "1119103098"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What was WST assignment 3?",
+        "choices": ["Web Quiz", "Student Form", "Image Slideshow", "Home page of freecode camp"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which day is today?",
+        "choices": ["Sunday", "Friday", "Monday", "Thursday"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "When is End Sem exacr?",
+        "choices": ["April", "May", "June", "July"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which edition of Regatta was on 4th April 2022?",
+        "choices": ["92nd", "95th", "93rd", "94th"],
+        "correctAnswer": 3
+    }
+]
