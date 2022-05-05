@@ -1,0 +1,491 @@
+
+/*Estilo del body*/
+body{
+   
+    background-color: rgb(243, 242, 242);
+}
+
+
+
+
+/*Estilo del all-nav*/
+.all-nav{
+    display: flex;
+    width: 100%;
+    background-color: rgb(2, 2, 2);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    position: fixed;
+    overflow: hidden;  
+   
+}
+
+
+
+
+/* Estilo del nav-left*/
+.nav-left input{
+    background-color: #3b3b4f; 
+    font-size: 18px;
+    height: 26px;
+    padding: 0 10px 0px 20px;
+    display: flex;
+    justify-content: left;
+    border-radius: 0%;   
+      
+}
+#footer {
+    width: 80%;
+    min-height: 80px;
+  }
+  
+  #footer-container {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 15px;
+    font-family: Lato, sans-serif;
+  }
+  
+  #footer-col-1 {
+    flex: 1 0 45%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: #2a2a40;
+    /* width: 35%; */
+    text-align: left;
+  }
+  
+  #footer-trending {
+    flex: 1 0 58%;
+    margin: 0 0 3rem;
+    font-size: 16px;
+  }
+  
+  #trending-title {
+    font-size: 16px;
+    padding: 0 15px 15px;
+    text-align: center;
+    font-weight: 900;
+  }
+  .footer-col {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #footer-col-1 {
+    height: auto;
+    flex: 1 0 25%;
+  }
+  
+  #footer-col-2 {
+    height: auto;
+    flex: 1 0 20%;
+    text-align: left;
+  }
+  
+  #footer-col-3 {
+    height: auto;
+    flex: 1 0 30%;
+    text-align: left;
+  }
+  
+  #footer-divider {
+    height: 2px;
+    margin: 0 15px;
+  }
+  
+  #hr {
+    width: 90%;
+    color: rgba(128, 128, 128, 0.389);
+  }
+  
+  #footer-nonprofit {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+
+::placeholder{
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    text-align: left;
+    
+}
+
+
+
+/*estilos de nav-middle*/
+.nav-middle a{
+    color: white;
+    font-family:monospace, sans-serif;
+    font-weight:normal;
+    display: flex;
+    justify-content: left;
+    font-size: 28px;
+    text-decoration: none;
+    padding:0px ;
+    
+}
+
+.logoFreeCodeCamp img{
+    height: 35px;
+    width: 35px;
+    margin: 0px;
+    font-family:sans-serif;
+}
+
+.nav-left img{
+    height: 20px;
+    width: 20px;
+    background-color: #3b3b4f;
+    margin-right: 0px;
+    margin-top: 1px;
+    border-radius: 0px;
+    padding: 5px;
+    display: flex;
+    float: left;
+}
+
+ 
+   
+
+/*estilos de nav-right*/
+a .menu{
+    display: flex;
+    float: right; 
+}
+
+.nav-right .login:hover{
+    background: linear-gradient(#ffac33, #fecc4c);   
+}
+
+.nav-right  .menu{
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 5px;      
+}
+
+
+
+.nav-right .login{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    border:  2px solid #feac32;
+    background: linear-gradient(#fecc4c,#ffac33);
+    text-decoration: none;
+    padding: 5px 22px;
+    margin: 2px;  
+}
+
+/*Estilo de los nav. left, middle and right*/
+.nav-left, .nav-middle, .nav-right{
+    padding: 5px;
+    margin: 5px;
+    height: 20px;
+    float:left;
+}
+
+
+
+
+/*Estilo del main*/
+main{
+    margin-top: 6.0rem;
+    font-family: sans-serif;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;  
+
+}
+
+/*Estilo del h1, h2 y h3*/
+.container h1, .container h2, .container h3 {
+    font-size: 40px;    
+}
+
+/*Tamaños del parrafo*/
+.icon p {
+    font-weight: bold;
+    margin-bottom: 0px; 
+}
+
+/*Tamaños de los iconos en lineas*/
+.icon img{
+     width: 74px;
+     margin-right: 50px;     
+}
+
+/*Eliminar margen derecho del ultimo elemento*/
+.icon img:last-child{
+    margin-right: 0;
+}
+
+
+
+/*Estilo a la seccion others*/
+.others{
+    margin-top: 24px;
+}
+
+.others a{
+    width: 70%;
+    font-family: monospace;
+    background: linear-gradient(#fecc4c,#ffac33);
+    font-size: 2.1rem;
+    color: black;
+    border:  3px solid #feac32;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 55px;   
+}
+
+.others a:hover{
+    background: linear-gradient(#ffac33, #fecc4c);
+}
+ 
+/*Tamaño de la imagen central*/
+.others img{
+    width: 100%;
+}
+
+/*Alineacion de las imagenes */
+.container-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Estilo del parrafo debajo de la imagen*/
+.others h4{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+#container-2{
+    margin-top: 90px;
+    width: 100%;
+    height: 300px;
+    background-color: #3b3b4f;;
+}
+.para-2{
+    color: #dfdfe2;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px; 
+}
+#container-3{
+    box-shadow: none;
+}
+h2{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 45px;
+    font-family: "Arial";
+}
+.content-3-1{
+    margin-top: 60px;
+    max-width: 1100px;
+    height: 350px;
+    margin-left: 200px; 
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 1px 1px 5px 7px #f0e5fa;
+    background-color: #ffff; 
+} 
+.para-3{
+    font-family: "Arial";
+    font-size: 18px;
+    padding-top: 80px;
+}
+.name, .job-description{
+    text-align: center;
+    line-height: 1.0rem;
+}
+.review{
+    line-height: 1.2rem;
+    padding: 2rem;
+}
+.earn{
+    margin-top: 205px; /* the earn class inherited other properties from the h2 above */
+}
+#container-4{
+    max-width: 900px;
+    margin: auto; 
+    margin-top: 90px
+}
+#certifications {
+    padding: 4vw 0;
+    margin-top: 80px;
+  }
+#certifications-heading {
+    font-size: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: bolder;
+}
+.certifications-buttons {
+    font-size: 1.1rem;
+    min-height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    border-width: 3px;
+    padding: 10px 16px;
+    line-height: 1.3333;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    font-family: Roboto Mono, monospace;
+    cursor: pointer;
+    touch-action: manipulation;
+    background-color: #d0d0d5;
+    color: #1b1b32;
+    border: 3px solid #0a0a23;
+}
+.certifications-buttons:hover{
+    fill: #fff;
+}
+  
+.certifications-buttons-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.map-icon {
+    height: 100%;
+    margin-left: 5px;
+    min-height: 20px;
+    min-width: 16px;
+    overflow: hidden;
+    width: 50px;
+    max-height: 55px;
+    margin-right: 20px;
+}
+  
+#certifications-list {
+    margin-top: 30px;
+    width: 60%;
+}
+.button-2{
+    background-color: #d0d0d5;
+    border: 3px solid #0a0a23;
+    height: 3.5rem;
+    width: 45rem;
+    font-size: 22px;
+    font-family: "Arial";
+    font-weight: normal;
+    color: #1b1b32;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.certifications-buttons:hover{
+    background-color: #0a0a23;
+    color: #dfdfe2;
+    cursor: pointer;
+}
+.button-2:hover{
+    background-color: #0a0a23;
+    color: #dfdfe2;
+    cursor: pointer;
+}
+.button-3{
+    background-color: #f1be32;
+    border: 3px solid #fa9107;
+    height: 3.5rem;
+    width: 45rem;
+    font-size: 33px;
+    font-family: "Monospace";
+    font-weight: normal;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 45px;
+    margin-left: 100px;
+}
+.button-3:hover{
+    background-color: #fccb3a;
+}
+
+.button-4{
+    background-color: #ffffff;
+    border: 3px solid #0a0a23;
+    height: 3.5rem;
+    width: 45rem;
+    font-size: 22px;
+    font-family: "Arial";
+    font-weight: normal;
+    color: #1b1b32;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+hr {
+    margin-top: 2.8rem;
+    border: none;
+    border-top: 3px solid #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: rgb(243, 242, 242);
+    content: 'or';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+#get-started-container {
+    font-family: Lato, sans-serif;
+  }
+  
+  #get-started-button {
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border-color: #feac32;
+    font-family: Lato, sans-serif;
+    font-size: 1.5rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 60px;
+    padding-right: 60px;
+    cursor: pointer;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

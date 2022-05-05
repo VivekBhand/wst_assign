@@ -1,0 +1,120 @@
+*{
+    background-color: #f5e1ae;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  border: 5px solid #000000;
+  padding: 1%;
+}
+.center1 {
+  margin: auto;
+  width: 90%;
+  padding: 1%;
+}
+input[type=text],input[type=email], input[type=password],input[type=file]{
+    height: 5%;
+    margin-top: 1%;
+    width: 90%;
+    border-color: black;
+    border-radius: 5px;
+}
+input[type=text],input[type=password],input[type=file]:focus{
+    outline: none;
+    border-color: #0b509b;
+    width: 93%;
+}
+input[type=email]:focus{
+    outline: none;
+    border-color: #0b509b;
+    width: 93%;
+}
+div {
+    text-align: left;
+}
+
+input[type=submit]{
+    height: 5%;
+    border-radius: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    width: 10%;
+    border-radius: 8px;
+    background-color: #0080b3;
+    font-size: 20;
+    color:white;
+}
+input[type=submit]:hover{
+    background-color:white;
+    color:#0080b3;
+    border-color:black;
+}
+
+input[type=reset]{
+    height: 5%;
+    border-radius: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    width: 10%;
+    border-radius: 8px;
+    background-color: #4e4e4e;
+    font-size: 20;
+    color:white;
+}
+input[type=reset]:hover{
+    background-color:white;
+    color:#4e4e4e;
+    border-color:black;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 90%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 20;
+}
+p{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin-right:5;
+    margin-left:30;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    margin-right:30;
+    margin-left:30;
+    border-radius: 20;
+    text-decoration: none;
+    padding: 2%;
+}
+#navbar ul li a:hover{
+    padding:3px;
+    padding-left: 10px;
+    background-color: white;
+    border-radius:20px;
+    color:black;
+}
+

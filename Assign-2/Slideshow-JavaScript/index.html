@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="ms-slides.css">
+        <style>
+            /* CSS Styles */
+
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .container {
+                width: 1200px;
+                margin: auto;
+            }
+
+            /* Developer Styles */
+            #slides {
+                width: 800px;
+                height: 400px;
+                margin: auto;
+            }
+
+            .small-slides {
+                width: 300px;
+                height: 169px;
+                margin: auto;
+            }
+
+            .card-row {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .card-row > div {
+                margin: 1em;
+                flex: 1;
+            }
+        </style>
+    </head>
+    <body>
+      <div class="container">
+        <center><h1>Diffrenet Types of Slides-show</h1></center>
+        
+        
+        
+        <!-- Big Slideshow -->
+        <!-- delay 8 secs transition time 0.4 secs-->
+        <div id="slides" class="ms-slides" data-delay="2000" data-transition="400">
+          <!-- Define the Slide Show Elements -->
+          <input type="text" id="settimer">
+          <button onclick="set_time()">SET Timer</button>
+          <div></div>>
+          <div class="ms-slides__inner">
+            <img src="images/i2.jpg" width="800" height="400" alt="car1">
+            <img src="images/i1.jpg" width="800" height="400" alt="car2">
+            <img src="images/i3.jpg" width="800" height="400" alt="car3">
+            <img src="images/i4.jpg" width="800" height="400" alt="car4">
+          </div>
+
+          <!-- Show Indicators -->
+          <ol class="ms-slides__indicators">
+            <!-- slide indicators -->
+          </ol>
+
+          <!-- Show Next and Previous Buttons -->
+          <a href="#" class="ms-slides__next-button"></a>
+          <a href="#" class="ms-slides__prev-button"></a>
+        </div>
+        <!-- Notes -->
+        <div>
+          <center>
+          <p>This example shows all features in use. Slides are changing every 
+            2 seconds with 400 millisecond transition. The buttons and 
+          indicators are visible.</p>
+          </center>
+        </div>
+        <!-- Big Slideshow -->
+
+        <!-- Row of Small Slideshows -->
+       
+      </div>
+
+        <script src="ms-slides.js"></script>
+        <script>
+            // Other code 
+        </script>
+    </body>
+</html>
